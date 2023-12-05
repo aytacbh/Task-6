@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-left: 50px;
+    margin-top: 100px;
+}
+.container{
+    display: flex;
+}
+.main1 .main1__red {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border-radius: 250px 0px 0px 0px;
+}
+
+.main1 .main1__green{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 0px 0px 0px 250px;
+}
+
+.main2__yellow {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border-radius: 0px 250px 0px 0px;
+}
+
+.main2__bluerry {
+    width: 150px;
+    height: 150px;
+    background-color: blueviolet;
+    border-radius: 0px 0px 250px 0px;
+}
